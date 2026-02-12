@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh Shimpi - Test Automation Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-gray-100">
+    <!-- Animated Background -->
+    <div id="stars-container" class="fixed inset-0 z-0"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">HS</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-400 hover:text-pink-500 transition duration-300">Home</a>
+                    <a href="#whats-new" class="text-gray-400 hover:text-pink-500 transition duration-300">What's New</a>
+                    <a href="#about" class="text-gray-400 hover:text-pink-500 transition duration-300">About</a>
+                    <a href="#experience" class="text-gray-400 hover:text-pink-500 transition duration-300">Experience</a>
+                    <a href="#projects" class="text-gray-400 hover:text-pink-500 transition duration-300">Projects</a>
+                    <a href="#skills" class="text-gray-400 hover:text-pink-500 transition duration-300">Skills</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-400">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-900/95 border-t border-slate-700/50">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-gray-400 hover:text-pink-500 rounded">Home</a>
+                <a href="#whats-new" class="block px-3 py-2 text-gray-400 hover:text-pink-500 rounded">What's New</a>
+                <a href="#about" class="block px-3 py-2 text-gray-400 hover:text-pink-500 rounded">About</a>
+                <a href="#experience" class="block px-3 py-2 text-gray-400 hover:text-pink-500 rounded">Experience</a>
+                <a href="#projects" class="block px-3 py-2 text-gray-400 hover:text-pink-500 rounded">Projects</a>
+                <a href="#skills" class="block px-3 py-2 text-gray-400 hover:text-pink-500 rounded">Skills</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen pt-20 pb-20 px-4 sm:px-6 lg:px-8 z-10 flex items-center">
+        <div class="max-w-6xl mx-auto w-full">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="text-lg text-gray-400 font-mono">
+                        <span class="text-pink-500">const</span> developer = <span class="text-green-400">{</span>
+                    </div>
+                    <h1 class="text-6xl md:text-7xl font-bold mb-4">
+                        <span class="text-white">Hi There!</span> 👋
+                    </h1>
+                    <h2 class="text-5xl md:text-6xl font-bold">
+                        I'M <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">HITESH SHIMPI</span>
+                    </h2>
+                    <p class="text-2xl text-gray-300 font-mono">
+                        <span id="role-text" class="text-pink-500 font-bold">Test Automation Engineer</span><span id="cursor" class="animate-pulse">|</span>
+                    </p>
+                    <p class="text-gray-400 text-lg leading-relaxed mt-6">
+                        I build robust automation frameworks and help teams ship reliable software with comprehensive test coverage.
+                    </p>
+                    <div class="flex gap-4 pt-6">
+                        <a href="#about" class="px-8 py-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-lg hover:shadow-lg hover:shadow-pink-500/50 transition duration-300 font-semibold">Explore More</a>
+                        <a href="#contact" class="px-8 py-3 border-2 border-pink-500 text-pink-500 rounded-lg hover:bg-pink-500/10 transition duration-300 font-semibold">Get In Touch</a>
+                    </div>
+                    <div class="text-lg text-gray-400 font-mono">
+                        <span class="text-green-400">}</span>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+                        <img src="./HiteshShimpi_passport1.png" alt="Hitesh Shimpi" class="relative w-72 h-72 rounded-full object-cover border-4 border-pink-500/30 shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Let Me Introduce Myself Section -->
+    <section id="about" class="relative py-12 px-4 sm:px-6 lg:px-8 z-10 -mt-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-5xl font-bold mb-12 text-center">
+                <span class="text-gray-300">LET ME </span><span class="bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">INTRODUCE</span><span class="text-gray-300"> MYSELF</span>
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="flex justify-center">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur-lg opacity-30"></div>
+                        <img src="./HiteshShimpi_passport1.png" alt="Hitesh Shimpi" class="relative w-48 h-48 rounded-full object-cover border-4 border-pink-500/30">
+                    </div>
+                </div>
+                <div class="md:col-span-2 space-y-4 text-gray-300 leading-relaxed">
+                    <p>
+                        I'm a <span class="text-pink-500 font-bold">Test Automation Engineer</span> with <span class="text-pink-500 font-bold">5+ years</span> of experience building scalable automation frameworks. Specialized in <span class="text-pink-500">E2E testing</span>, <span class="text-pink-500">RestFul API automation</span>, <span class="text-pink-500">Mobile automation</span>, and <span class="text-pink-500">CI/CD integration</span>.
+                    </p>
+                    <p>
+                        I'm proficient in <span class="text-purple-400 font-semibold">Playwright</span>, <span class="text-purple-400 font-semibold">Selenium</span>, <span class="text-purple-400 font-semibold">Appium</span>, <span class="text-purple-400 font-semibold">RestAssured</span>, and <span class="text-purple-400 font-semibold">Java</span> – and I'm passionate about leveraging these technologies to ensure comprehensive test coverage.
+                    </p>
+                    <p>
+                        My key areas of interest include <span class="text-pink-500 font-semibold">Web Applications</span>, <span class="text-pink-500 font-semibold">Mobile Testing</span>, and <span class="text-pink-500 font-semibold">Security Testing (DAST/SAST)</span>.
+                    </p>
+                    <p>
+                        Whenever possible, I love automating manual processes with <span class="text-purple-400 font-semibold">Automation Tools</span> and exploring new technologies in the testing ecosystem to continuously enhance my skill set and contribute to building high-quality software.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="text-gray-400 text-lg italic">
+                    "Strive to build things that make a difference!" – <span class="text-pink-500 font-semibold">Hitesh Shimpi</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's New Section -->
+    <section id="whats-new" class="relative py-20 px-4 sm:px-6 lg:px-8 z-10">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-4xl font-bold mb-2">
+                    <span class="text-pink-500">What's</span> <span class="text-gray-300">New</span>
+                </h2>
+                <div class="h-1 w-24 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"></div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Update 1 -->
+                <div class="bg-slate-800/50 border-l-4 border-pink-500 rounded-lg p-6 hover:shadow-lg hover:shadow-pink-500/10 transition duration-300">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs font-semibold rounded-full">Latest</span>
+                        <span class="text-gray-500 text-sm">February 2026</span>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <img src="assets/images/istqb-logo.svg" alt="ISTQB Logo" class="w-24 h-24 flex-shrink-0">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-white mb-2">Appearing for ISTQB Certification</h3>
+                            <p class="text-gray-300 mb-3">Preparing and appearing for the ISTQB (International Software Testing Qualifications Board) Certified Tester Foundation Level certification exam. Actively studying advanced testing methodologies and best practices to enhance professional expertise.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2 py-1 bg-pink-500/20 text-pink-400 text-xs rounded border border-pink-500/30">Certification</span>
+                                <span class="px-2 py-1 bg-pink-500/20 text-pink-400 text-xs rounded border border-pink-500/30">Professional Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Update 2 -->
+                <div class="bg-slate-800/50 border-l-4 border-pink-500 rounded-lg p-6 hover:shadow-lg hover:shadow-pink-500/10 transition duration-300">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs font-semibold rounded-full">Latest+</span>
+                        <span class="text-gray-500 text-sm">Early Feb 2026</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">🚀 AI-Powered Test Generation Launched</h3>
+                    <p class="text-gray-300 mb-3">Integrated AI-driven test case generation at SAS, reducing manual testing effort by 30% and significantly improving overall test coverage across platforms.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded border border-purple-500/30">AI/ML</span>
+                        <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded border border-purple-500/30">Innovation</span>
+                    </div>
+                </div>
+
+                <!-- Update 3 -->
+                <div class="bg-slate-800/50 border-l-4 border-purple-500 rounded-lg p-6 hover:shadow-lg hover:shadow-purple-500/10 transition duration-300">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="px-3 py-1 bg-purple-500/20 text-purple-400 text-xs font-semibold rounded-full">Recent</span>
+                        <span class="text-gray-500 text-sm">January 2026</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">🔒 Security Testing & DAST Implementation</h3>
+                    <p class="text-gray-300 mb-3">Implemented comprehensive DAST and SAST security testing using OWASP ZAP and Snyk. Achieved significant reduction in security vulnerabilities through automated scanning in CI/CD pipeline.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded border border-purple-500/30">Security</span>
+                        <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded border border-purple-500/30">DevOps</span>
+                    </div>
+                </div>
+
+                <!-- Update 4 -->
+                <div class="bg-slate-800/50 border-l-4 border-pink-500 rounded-lg p-6 hover:shadow-lg hover:shadow-pink-500/10 transition duration-300">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs font-semibold rounded-full">Milestone</span>
+                        <span class="text-gray-500 text-sm">December 2025</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">👨‍💼 Joined SAS as SDET</h3>
+                    <p class="text-gray-300 mb-3">Excited to announce joining SAS as a Software Development Engineer in Test. Currently maintaining and enhancing Playwright and RestAssured automation frameworks with 90% coverage.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-pink-500/20 text-pink-400 text-xs rounded border border-pink-500/30">Career</span>
+                        <span class="px-2 py-1 bg-pink-500/20 text-pink-400 text-xs rounded border border-pink-500/30">Automation</span>
+                    </div>
+                </div>
+
+                <!-- Update 5 -->
+                <div class="bg-slate-800/50 border-l-4 border-purple-500 rounded-lg p-6 hover:shadow-lg hover:shadow-purple-500/10 transition duration-300">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="px-3 py-1 bg-purple-500/20 text-purple-400 text-xs font-semibold rounded-full">Achievement</span>
+                        <span class="text-gray-500 text-sm">November 2025</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">📱 Mobile Automation Framework Optimization</h3>
+                    <p class="text-gray-300 mb-3">Optimized OOP-based mobile automation frameworks using Appium for Android & iOS. Achieved impressive reduction in regression failures from 15% to under 5% through comprehensive test coverage.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded border border-purple-500/30">Mobile Testing</span>
+                        <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded border border-purple-500/30">Appium</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="relative py-20 px-4 sm:px-6 lg:px-8 z-10">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-4xl font-bold mb-2">
+                    <span class="text-pink-500">Work</span> <span class="text-gray-300">Experience</span>
+                </h2>
+                <div class="h-1 w-24 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"></div>
+            </div>
+
+            <div class="space-y-8">
+                <!-- Experience 1 -->
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-6 hover:border-pink-500/30 transition duration-300 hover:shadow-lg hover:shadow-pink-500/10">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Software Development Engineer in Test (SDET)</h3>
+                            <p class="text-pink-500 font-semibold text-lg">SAS</p>
+                        </div>
+                        <span class="text-pink-500 font-semibold whitespace-nowrap">Nov 2025 – Present</span>
+                    </div>
+                    <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                        <li>Maintained and enhanced Playwright and RestAssured automation frameworks achieving 90% coverage</li>
+                        <li>Performed DAST and SAST security testing using OWASP ZAP and Snyk</li>
+                        <li>Created comprehensive test plans with edge-case coverage</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-6 hover:border-pink-500/30 transition duration-300 hover:shadow-lg hover:shadow-pink-500/10">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Software Quality Analyst</h3>
+                            <p class="text-pink-500 font-semibold text-lg">ORACLE</p>
+                        </div>
+                        <span class="text-pink-500 font-semibold whitespace-nowrap">Feb 2024 – Present</span>
+                    </div>
+                    <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                        <li>Mentored 3 team members improving productivity by 50%</li>
+                        <li>Optimized frameworks reducing manual regression by 40%</li>
+                        <li>Integrated AI-powered test case generation reducing manual effort by 30%</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-6 hover:border-pink-500/30 transition duration-300 hover:shadow-lg hover:shadow-pink-500/10">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Senior Test Automation Engineer</h3>
+                            <p class="text-pink-500 font-semibold text-lg">YAGNA IQ</p>
+                        </div>
+                        <span class="text-pink-500 font-semibold whitespace-nowrap">July 2020 – Feb 2024</span>
+                    </div>
+                    <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                        <li>Migrated suites to Playwright achieving 90% automation coverage</li>
+                        <li>Built OOP-based Android framework reducing failures to 5%</li>
+                        <li>Implemented CI/CD pipelines enabling early issue detection</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="relative py-20 px-4 sm:px-6 lg:px-8 z-10">
+        <div class="max-w-5xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-4xl font-bold mb-2">
+                    <span class="text-pink-500">Projects</span>
+                </h2>
+                <div class="h-1 w-24 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-6 hover:border-pink-500/30 transition duration-300 hover:shadow-lg hover:shadow-pink-500/10 hover:-translate-y-1">
+                    <h3 class="text-xl font-bold text-white mb-2">Playwright & RestAssured Frameworks</h3>
+                    <p class="text-pink-500 text-sm font-semibold mb-3">SAS | ORACLE | YAGNA IQ</p>
+                    <p class="text-gray-300 mb-4">Maintained comprehensive automation frameworks achieving 90% test automation coverage and reducing manual regression efforts by 40%.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">Playwright</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">RestAssured</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">JavaScript</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-6 hover:border-pink-500/30 transition duration-300 hover:shadow-lg hover:shadow-pink-500/10 hover:-translate-y-1">
+                    <h3 class="text-xl font-bold text-white mb-2">Mobile Automation Frameworks</h3>
+                    <p class="text-pink-500 text-sm font-semibold mb-3">YAGNA IQ | ORACLE</p>
+                    <p class="text-gray-300 mb-4">Built OOP-based Android & iOS test automation frameworks using Appium, reducing regression failures from 15% to under 5%.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">Appium</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">Java</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">OOP</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-6 hover:border-pink-500/30 transition duration-300 hover:shadow-lg hover:shadow-pink-500/10 hover:-translate-y-1">
+                    <h3 class="text-xl font-bold text-white mb-2">Security Testing & CI/CD</h3>
+                    <p class="text-pink-500 text-sm font-semibold mb-3">SAS | ORACLE</p>
+                    <p class="text-gray-300 mb-4">Implemented DAST/SAST security testing and CI/CD pipelines for automation, reducing manual effort by 30%.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">Jenkins</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">OWASP ZAP</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">Security</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-lg p-6 hover:border-pink-500/30 transition duration-300 hover:shadow-lg hover:shadow-pink-500/10 hover:-translate-y-1">
+                    <h3 class="text-xl font-bold text-white mb-2">AI-Powered Test Generation</h3>
+                    <p class="text-pink-500 text-sm font-semibold mb-3">SAS</p>
+                    <p class="text-gray-300 mb-4">Integrated AI-powered test case generation reducing manual testing effort by 30% and improving test coverage.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">AI/ML</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">Python</span>
+                        <span class="px-3 py-1 bg-pink-500/20 text-pink-400 text-xs rounded-full border border-pink-500/30">Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="relative py-20 px-4 sm:px-6 lg:px-8 z-10">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-4xl font-bold mb-2 text-center">
+                    <span class="text-gray-300">Professional </span><span class="bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">Skillset</span>
+                </h2>
+                <div class="h-1 w-24 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full mx-auto"></div>
+            </div>
+
+            <!-- Testing Frameworks and Tools -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-pink-500 mb-6 text-center">Testing Frameworks & Tools</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🎭 Playwright
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🤖 Selenium
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🌲 Cypress
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        📱 Appium
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🧪 RestAssured
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🧰 Postman
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🧩 TestNG
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🔬 JUnit
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🐍 Pytest
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🎭 BDD
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🎯 Page Object Model
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        📱 iOS Device Testing
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        📚 TestRail
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-purple-500 mb-6 text-center">Programming Languages</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        ☕ Java
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🐍 Python
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        ⚡ JavaScript
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🏷️ HTML5
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🎨 CSS3
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        ⚛️ React
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🟢 Node.js
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        � Bash
+                    </div>
+                </div>
+            </div>
+
+            <!-- DevOps & Cloud -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-pink-500 mb-6 text-center">DevOps & Cloud</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🔨 Jenkins
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🐳 Docker
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        ☸️ Kubernetes
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        ☁️ AWS
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        ⚔️ GitHub Actions
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🧬 GitLab CI
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🔒 OWASP ZAP
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🛡️ Snyk
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        📊 SonarQube
+                    </div>
+                </div>
+            </div>
+
+            <!-- Databases & Tools -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-purple-500 mb-6 text-center">Databases & Tools</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🐘 PostgreSQL
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🍃 MongoDB
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🐬 MySQL
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        🗄️ SQL
+                    </div>
+                    <div class="px-4 py-2 border-2 border-purple-500/30 rounded-full text-gray-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/20 transition duration-300 cursor-pointer hover:bg-purple-500/10">
+                        📋 Jira
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI & ML Tools -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-pink-500 mb-6 text-center">AI & ML Tools</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🤖 ChatGPT
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🧠 Claude
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        👨‍💻 GitHub Copilot
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        📊 Gemini
+                    </div>
+                    <div class="px-4 py-2 border-2 border-pink-500/30 rounded-full text-gray-300 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/20 transition duration-300 cursor-pointer hover:bg-pink-500/10">
+                        🔮 Copilot Pro
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <section
+  class="relative py-20 px-4 sm:px-6 lg:px-8 z-10"
+  data-aos="fade-up"
+>
+
+    <!-- Find Me On Section -->
+    <section id="contact" class="relative py-20 px-4 sm:px-6 lg:px-8 z-10">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">
+                <span class="text-gray-300">Find Me On</span>
+            </h2>
+            <p class="text-gray-400 mb-12 text-lg">Feel free to connect with me. I'm always open to new opportunities and collaborations!</p>
+            <div class="flex justify-center gap-6 mb-12 flex-wrap">
+                <a href="https://github.com/hiteshshimpi" target="_blank" class="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-pink-500/30 hover:shadow-lg hover:shadow-pink-500/10 transition duration-300 transform hover:-translate-y-1">
+                    <svg class="w-8 h-8 text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/hitesh-shimpi-sdet/" target="_blank" class="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-pink-500/30 hover:shadow-lg hover:shadow-pink-500/10 transition duration-300 transform hover:-translate-y-1">
+                    <svg class="w-8 h-8 text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.418-.103.249-.129.597-.129.946v5.441h-3.554s.05-8.736 0-9.646h3.554v1.348c.421-.649 1.175-1.574 2.858-1.574 2.085 0 3.653 1.361 3.653 4.285v5.587zM5.337 8.855c-1.144 0-1.915-.762-1.915-1.715 0-.955.77-1.715 1.916-1.715.955 0 1.914.76 1.914 1.715 0 .953-.759 1.715-1.915 1.715zm1.6 11.597H3.738V9.859h3.199v10.593zM22.224 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.98 0 1.771-.773 1.771-1.729V1.729C23.996.774 23.204 0 22.224 0z"/>
+                    </svg>
+                </a>
+                <a href="https://medium.com/@hitesh.shimpi2301" target="_blank" class="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-pink-500/30 hover:shadow-lg hover:shadow-pink-500/10 transition duration-300 transform hover:-translate-y-1">
+                    <svg class="w-8 h-8 text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42c1.87 0 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.76-1.19 5.76-.59 0-1.07-2.15-1.07-5.76s.48-5.76 1.07-5.76c.66 0 1.19 2.59 1.19 5.76z"/>
+                    </svg>
+                </a>
+                <a href="mailto:hitesh.shimpi05@gmail.com" class="p-4 bg-slate-800/50 border border-slate-700/50 rounded-lg hover:border-pink-500/30 hover:shadow-lg hover:shadow-pink-500/10 transition duration-300 transform hover:-translate-y-1">
+                    <svg class="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                </a>
+            </div>
+            <p class="text-gray-500 text-sm">📧 hitesh.shimpi05@gmail.com | 📱 +91 8208104989</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative border-t border-slate-700/50 py-8 px-4 sm:px-6 lg:px-8 z-10">
+        <div class="max-w-6xl mx-auto text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Hitesh Shimpi. All rights reserved. | Designed with ❤️ using modern web technologies</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    GitHubCalendar("#github-calendar", "hiteshshimpi", {
+      responsive: true,
+      tooltips: true,
+      blockSize: window.innerWidth < 768 ? 10 : 14,
+      blockMargin: window.innerWidth < 768 ? 3 : 5,
+      fontSize: window.innerWidth < 768 ? 10 : 14,
+    });
+  });
+</script>
+<script>
+  fetch("https://github.com/users/hiteshshimpi/contributions")
+    .then(res => res.text())
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, "text/html");
+      const countText = doc.querySelector("h2")?.innerText;
+      document.getElementById("contribution-count").innerText =
+        countText || "GitHub contributions in the last year";
+    })
+    .catch(() => {
+      document.getElementById("contribution-count").innerText =
+        "GitHub contributions in the last year";
+    });
+</script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 900,
+    easing: "ease-out-cubic",
+    once: true,
+  });
+</script>
+
+
+</body>
+</html>

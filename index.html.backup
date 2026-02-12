@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh Shimpi - Test Automation Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">HS</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600 transition">Projects</a>
+                    <a href="#skills" class="text-gray-600 hover:text-blue-600 transition">Skills</a>
+                    <a href="#experience" class="text-gray-600 hover:text-blue-600 transition">Experience</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded">Home</a>
+                <a href="#about" class="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded">About</a>
+                <a href="#projects" class="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded">Projects</a>
+                <a href="#skills" class="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded">Skills</a>
+                <a href="#experience" class="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded">Experience</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-600 hover:bg-gray-100 rounded">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-cyan-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
+                        Hello, I'm <span class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Hitesh Shimpi</span>
+                    </h1>
+                    <div class="text-xl text-gray-600 mb-8 h-12">
+                        <p>I am a <span id="role-text" class="font-semibold text-blue-600">Test Automation Engineer</span></p>
+                    </div>
+                    <div class="flex gap-4 mb-8">
+                        <a href="#contact" class="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Get In Touch</a>
+                        <a href="#projects" class="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">View Work</a>
+                    </div>
+                    <div class="mt-4 flex flex-wrap gap-3">
+                        <a href="https://github.com/your-github-username" target="_blank" class="text-gray-600 hover:text-blue-600">GitHub</a>
+                        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" class="text-gray-600 hover:text-blue-600">LinkedIn</a>
+                        <a href="https://medium.com/@your-medium" target="_blank" class="text-gray-600 hover:text-blue-600">Medium</a>
+                        <a href="https://leetcode.com/your-leetcode" target="_blank" class="text-gray-600 hover:text-blue-600">LeetCode</a>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Hitesh Shimpi" class="w-64 h-64 rounded-full object-cover shadow-lg border-4 border-blue-600">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-900">Know Who <span class="text-blue-600">I'M</span></h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop" alt="Hitesh Shimpi" class="rounded-lg shadow-lg w-full h-auto object-cover">
+                </div>
+                <div>
+                    <p class="text-gray-700 text-lg mb-6">
+                        Hi everyone! I'm <span class="font-semibold text-blue-600">Hitesh Shimpi</span> from <span class="font-semibold text-cyan-600">Pune, India</span>. I'm currently working as a <span class="font-semibold text-blue-600">Software Developer</span> at <span class="font-semibold text-cyan-600">Juspay</span>. I hold an integrated M.Sc. (IMSc) in <span class="font-semibold text-blue-600">Mathematics and Computing</span> from IIIT Allahabad.
+                    </p>
+                    <p class="text-gray-700 text-lg mb-6">
+                        Outside of coding, I love engaging in activities that keep me creative and inspired:
+                    </p>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="text-lg">🎮 Playing Games</li>
+                        <li class="text-lg">📝 Writing Tech Blogs</li>
+                        <li class="text-lg">✈️ Traveling and Exploring New Places</li>
+                    </ul>
+                    <p class="text-gray-600 text-lg italic mt-8 text-center">
+                        "Strive to build things that make a difference!" – <span class="font-semibold">Hitesh Shimpi</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Skillset Section -->
+    <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center">Professional <span class="text-blue-600">Skillset</span></h2>
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold border border-blue-300">C++</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold border border-blue-300">JavaScript</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold border border-blue-300">Java</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold border border-blue-300">Go</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold border border-blue-300">Node.Js</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold border border-blue-300">React.Js</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-semibold border border-blue-300">Solidity</span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <span class="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-semibold border border-cyan-300">Mongo DB</span>
+                <span class="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-semibold border border-cyan-300">Redux</span>
+                <span class="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-semibold border border-cyan-300">Next.Js</span>
+                <span class="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-semibold border border-cyan-300">Git</span>
+                <span class="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-semibold border border-cyan-300">Firebase</span>
+                <span class="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-semibold border border-cyan-300">Redis</span>
+                <span class="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-semibold border border-cyan-300">Docker</span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-full font-semibold border border-teal-300">Kubernetes</span>
+                <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-full font-semibold border border-teal-300">PostgreSQL</span>
+                <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-full font-semibold border border-teal-300">Python</span>
+                <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-full font-semibold border border-teal-300">Java</span>
+                <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-full font-semibold border border-teal-300">Haskell</span>
+                <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-full font-semibold border border-teal-300">Tailwind CSS</span>
+                <span class="px-4 py-2 bg-teal-100 text-teal-700 rounded-full font-semibold border border-teal-300">Material UI</span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 mt-12">
+                <span class="px-4 py-2 bg-orange-100 text-orange-700 rounded-full font-semibold border border-orange-300">Postman</span>
+                <span class="px-4 py-2 bg-orange-100 text-orange-700 rounded-full font-semibold border border-orange-300">Rust</span>
+                <span class="px-4 py-2 bg-orange-100 text-orange-700 rounded-full font-semibold border border-orange-300">AWS</span>
+                <span class="px-4 py-2 bg-orange-100 text-orange-700 rounded-full font-semibold border border-orange-300">Kafka</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools I Use Section -->
+    <section id="tools" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center">Tools <span class="text-blue-600">I use</span></h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full font-semibold border border-gray-400">Mac Os</span>
+                <span class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full font-semibold border border-gray-400">Google Chrome</span>
+                <span class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full font-semibold border border-gray-400">Vs Code</span>
+                <span class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full font-semibold border border-gray-400">Intellij</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-blue-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-900">Featured Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop" alt="Automation Testing" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Playwright & RestAssured Frameworks</h3>
+                        <p class="text-gray-600 text-sm mb-4">Maintained and optimized comprehensive automation frameworks achieving 90% test automation coverage and reducing manual regression efforts by 40%.</p>
+                        <div class="flex gap-2 mb-4 flex-wrap">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">Playwright</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">RestAssured</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">JavaScript</span>
+                        </div>
+                        <p class="text-sm text-gray-500">SAS | ORACLE | YAGNA IQ</p>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f70d504d0?w=500&h=300&fit=crop" alt="Mobile Testing" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Mobile Automation Frameworks</h3>
+                        <p class="text-gray-600 text-sm mb-4">Built OOP-based Android & iOS test automation frameworks using Appium, reducing regression failures from 15% to under 5%.</p>
+                        <div class="flex gap-2 mb-4 flex-wrap">
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-700 rounded-full text-xs font-semibold">Appium</span>
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-700 rounded-full text-xs font-semibold">Java</span>
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-700 rounded-full text-xs font-semibold">OOP</span>
+                        </div>
+                        <p class="text-sm text-gray-500">YAGNA IQ | ORACLE</p>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f70d504d0?w=500&h=300&fit=crop" alt="Security Testing" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Security Testing & CI/CD</h3>
+                        <p class="text-gray-600 text-sm mb-4">Implemented DAST/SAST security testing and CI/CD pipelines for automation coverage, reducing manual effort by 30%.</p>
+                        <div class="flex gap-2 mb-4 flex-wrap">
+                            <span class="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-semibold">Jenkins</span>
+                            <span class="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-semibold">OWASP ZAP</span>
+                            <span class="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-semibold">AI Testing</span>
+                        </div>
+                        <p class="text-sm text-gray-500">SAS | ORACLE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="relative py-20 px-4 sm:px-6 lg:px-8 z-10">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-white animate-fadeInUp">Skills & Technologies</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill Category 1 -->
+                <div class="bg-gradient-to-br from-purple-900/40 to-pink-900/40 border border-purple-500/20 rounded-lg p-6 hover:border-purple-400/40 transition duration-300 hover:shadow-xl hover:shadow-purple-500/20 animate-fadeInUp animation-delay-100">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-300">Automation Tools</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p>Playwright, Selenium, Appium</p>
+                        <p>RestAssured, Postman</p>
+                        <p>TestNG, JUnit, POM</p>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="bg-gradient-to-br from-purple-900/40 to-pink-900/40 border border-purple-500/20 rounded-lg p-6 hover:border-purple-400/40 transition duration-300 hover:shadow-xl hover:shadow-purple-500/20 animate-fadeInUp animation-delay-200">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-300">Programming Languages</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p>Java, Python, JavaScript</p>
+                        <p>SQL, REST APIs</p>
+                        <p>HTML5, CSS3, React</p>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="bg-gradient-to-br from-purple-900/40 to-pink-900/40 border border-purple-500/20 rounded-lg p-6 hover:border-purple-400/40 transition duration-300 hover:shadow-xl hover:shadow-purple-500/20 animate-fadeInUp animation-delay-300">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-300">DevOps & Platforms</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p>Jenkins, GitLab, AWS</p>
+                        <p>Docker, CI/CD Pipelines</p>
+                        <p>OWASP ZAP, Snyk, Jira</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center">Professional Experience</h2>
+            <div class="space-y-8">
+                <!-- Experience Card 1 -->
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-900">Professional Experience</h2>
+            <div class="space-y-8">
+                <!-- Experience Card 1 -->
+                <div class="border-l-4 border-blue-600 pl-6 py-4">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">Software Development Engineer in Test (SDET)</h3>
+                            <p class="text-blue-600 font-semibold">SAS</p>
+                        </div>
+                        <span class="text-gray-500">Nov 2025 – Present</span>
+                    </div>
+                    <ul class="text-gray-600 space-y-2 mt-4 list-disc list-inside">
+                        <li>Maintained and enhanced Playwright and RestAssured automation frameworks</li>
+                        <li>Performed DAST and SAST security testing using OWASP ZAP and Snyk</li>
+                        <li>Created comprehensive test plans with edge-case coverage</li>
+                    </ul>
+                </div>
+
+                <!-- Experience Card 2 -->
+                <div class="border-l-4 border-cyan-600 pl-6 py-4">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">Software Quality Analyst (Automation Testing)</h3>
+                            <p class="text-cyan-600 font-semibold">ORACLE</p>
+                        </div>
+                        <span class="text-gray-500">Feb 2024 – Present</span>
+                    </div>
+                    <ul class="text-gray-600 space-y-2 mt-4 list-disc list-inside">
+                        <li>Mentored 3 team members on test automation best practices, improving productivity by 50%</li>
+                        <li>Optimized Playwright and RestAssured frameworks, reducing manual regression by 40%</li>
+                        <li>Integrated AI-powered test case generation reducing manual effort by 30%</li>
+                        <li>Tested iOS and Android devices with functional and performance testing</li>
+                    </ul>
+                </div>
+
+                <!-- Experience Card 3 -->
+                <div class="border-l-4 border-teal-600 pl-6 py-4">
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">Senior Test Automation Engineer</h3>
+                            <p class="text-teal-600 font-semibold">YAGNA IQ</p>
+                        </div>
+                        <span class="text-gray-500">July 2020 – Feb 2024</span>
+                    </div>
+                    <ul class="text-gray-600 space-y-2 mt-4 list-disc list-inside">
+                        <li>Migrated sanity and regression suites to Playwright achieving 90% automation coverage</li>
+                        <li>Automated test cases using Java and Selenium reducing regression by 60%</li>
+                        <li>Built OOP-based Android framework with Appium reducing failures from 15% to under 5%</li>
+                        <li>Implemented CI/CD pipelines enabling early issue detection</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-900">Certifications & Education</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-blue-600">Certifications</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white rounded-lg p-6 shadow-md">
+                            <div class="flex items-start gap-4">
+                                <span class="text-3xl">🎓</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Postman API Testing Automation</h4>
+                                    <p class="text-gray-600">Udemy - Rest API Testing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-6 shadow-md">
+                            <div class="flex items-start gap-4">
+                                <span class="text-3xl">📱</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Appium Mobile Testing Automation</h4>
+                                    <p class="text-gray-600">Udemy - Android & iOS Testing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-6 shadow-md">
+                            <div class="flex items-start gap-4">
+                                <span class="text-3xl">🎭</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Playwright Automation</h4>
+                                    <p class="text-gray-600">Udemy - Basics & Advanced</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-cyan-600">Education</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white rounded-lg p-6 shadow-md">
+                            <div class="flex items-start gap-4">
+                                <span class="text-3xl">🎓</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">B.E Electronics and Telecommunication</h4>
+                                    <p class="text-gray-600">Smt. Kashibai Navale College of Engineering</p>
+                                    <p class="text-gray-500 text-sm">June 2015 - May 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-6 shadow-md">
+                            <div class="flex items-start gap-4">
+                                <span class="text-3xl">🏆</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Leadership Roles</h4>
+                                    <p class="text-gray-600">Managerial Head at ELESA (Institute level)</p>
+                                    <p class="text-gray-600">Active Member of Google Developers Group (GDG)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-900">Get In Touch</h2>
+            <form id="contact-form" class="space-y-6">
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Name</label>
+                    <input type="text" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" placeholder="Your Name">
+                </div>
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Email</label>
+                    <input type="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" placeholder="your.email@example.com">
+                </div>
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Message</label>
+                    <textarea name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit" class="w-full px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy; 2026 Hitesh Shimpi. All rights reserved. | Pune, India</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- ISTQB Logo simplified version -->
+  <defs>
+    <style>
+      .istqb-text { font-family: Arial, sans-serif; font-weight: bold; }
+      .istqb-blue { fill: #003D7A; }
+      .istqb-red { fill: #E31D23; }
+    </style>
+  </defs>
+  
+  <!-- Red curved banner -->
+  <path class="istqb-red" d="M 60 30 Q 100 20 140 35 Q 145 45 140 55 Q 100 40 60 50 Z"/>
+  
+  <!-- Blue text -->
+  <text x="50" y="100" class="istqb-text istqb-blue" font-size="32">ISTQB</text>
+  
+  <!-- Red accent line -->
+  <rect class="istqb-red" x="50" y="115" width="3" height="40"/>
+  
+  <!-- Certification text -->
+  <text x="65" y="130" font-family="Arial" font-size="11" class="istqb-blue" font-weight="600">Certified Tester</text>
+  <text x="65" y="145" font-family="Arial" font-size="11" class="istqb-blue" font-weight="600">Foundation Level</text>
+</svg>
